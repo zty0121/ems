@@ -1,0 +1,16 @@
+server:
+  port: 9099
+  context-path: /springboot
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url:  jdbc:oracle:thin:@localhost:1521:XE
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: hr
+    password: hr
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /
+mybatis:
+  type-aliases-package: com.zty.entity
