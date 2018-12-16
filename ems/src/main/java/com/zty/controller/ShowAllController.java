@@ -12,7 +12,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/es")
 public class ShowAllController  {
-
+        //这是拉取修改
 	@Autowired
 	private EmpService empService;
 	@RequestMapping("/QueryAll")
